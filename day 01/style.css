@@ -5,11 +5,14 @@ body {
 }
 
 .parent {
-    background-color: #23424A;
+    background-color: #1ace29;
     padding: 50px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .child {
     background-color: #38CFD9;
     height: 250px;
+    width: 50%;
 }
