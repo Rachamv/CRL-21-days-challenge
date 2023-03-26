@@ -1,18 +1,39 @@
-* { box-sizing: border-box; }
+/* INSTRUCTIONS
+ *
+ * 1) Limit the total width of
+ *    the .intro-conent to about half
+ *    of it's parent
+ *
+ * 2) Stop the text from overflowing
+ *    out the bottom at small screen
+ *    widths
+ *
+ * You may modify the HTML if needed
+ *
+ */
 
-body {
+ * {
+    box-sizing: border-box;
+  }
+  
+  body {
     margin: 0;
-}
-
-.parent {
-    background-color: #1ace29;
-    padding: 50px;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    background: #23424a;
+    color: white;
+  
     width: 80%;
     margin: 0 auto;
-}
+  
+    padding: 2em;
+    /* height: 300px; */
+  }
 
-.child {
-    background-color: #38CFD9;
-    height: 250px;
+.intro-conent {
+    background: #23424a;
     width: 50%;
-}
+
+  }
